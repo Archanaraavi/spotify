@@ -1,0 +1,303 @@
+<html>
+  <head>
+    <style>
+      .main{
+        background-color: rgb(40, 39, 39);
+        height: 5%;
+        width: 10%;
+      }
+
+      .x:hover {
+        text-decoration: underline;
+        color: white;
+      }
+      header {
+        background-color: black;
+        color: white;
+        padding: 20px;
+      }
+      #a {
+        position: relative;
+        left: 740px;
+      }
+      #b {
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 750px;
+        padding: 5px;
+        border-radius: 50px;
+      }
+      #C {
+        position: relative;
+        bottom: 20px;
+      }
+
+      .a {
+        background-color:#191414 ;
+        color: white;
+        width: 297px;
+        display: inline-block;
+        padding: 10px;
+        border-radius:10px ;
+        padding: 5px;
+      
+      }
+      .c {
+        background-color: #191414;
+        color: white;
+        width: 300px;
+        height: 400px;
+        display: inline-block;
+        padding: 10px;
+        position: relative;
+        bottom: 60px;
+        width: 297px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      .b {
+        background-color: black;
+        display: inline-block;
+        position: relative;
+        bottom: 128px;
+        width: 950px;
+        left: 321px;
+        bottom: 182px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      #d {
+        overflow: scroll;
+        height: 100px;
+        background-color: grey;
+      }
+      #e button {
+       background-color:white;
+      }
+      .d {
+        display: flex;
+        position: relative;
+        bottom: 639px;
+        left: 322px;
+        width: 948px;
+        height: 280px;
+        background-color: #191414;
+        border-radius: 10px;
+        padding: 5px;
+        
+      }
+      .e {
+        display: flex;
+        position: relative;
+        bottom: 635px;
+        left: 322px;
+        width: 948px;
+        height: 265px;
+        background-color: #191414;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      h5,
+      h4,
+      h3,
+      h2,
+      p {
+        color: whitesmoke;
+      }
+      /* .d div .one1{
+        visibility:hidden; */
+      
+      /* .one1{
+        display:none ;
+      }
+      .d div a .one1:hover{
+        /* display: block;
+       opacity: 1;
+       transform: scale(1.5);
+       transition: 0.2s; */
+       /* visibility: inherit; */
+      /* } */
+      /* .d {
+    position: relative;
+    display: flex;
+  }
+
+  .d .one1 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .d:hover .one1 {
+    display: block;
+  } */
+  .imc {
+    margin-left: 20px;
+    position: relative; /* Required for positioning child elements */
+    display: inline-block; /* To make div take the size of its contents */
+  }
+  .imc .one1 {
+    display: none; /* Initially hide the image */
+    position: absolute; /* Position the image absolutely relative to parent */
+    bottom: 0;
+    left: 0;
+    z-index: 1; /* Ensure image is above other content */
+  }
+  .imc:hover .one1 {
+    display: block; /* Show image when parent is hovered */
+  }
+      
+      /* .d+.one:hover{
+        background-image: url(./play.png);
+       visibility: hidden; */
+      
+      body{
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="a">
+        <nav>
+          <img src="./spotify.png" width="17%" height="50px" />
+          <span id="c">Spotify</span><br />
+          <img src="./home (2).png" width="50px" />
+          <span id="c">Home</span><br />
+          <img src="./search.png" width="50px" height="50px" />
+          <span id="c">Search</span>
+        </nav>
+      </div>
+
+      <div class="b">
+        <header>
+          <img src="./left-chevron.png" width="26px">
+          <img src="./right-chevron.png" width="20px" style="position: relative; bottom: 4px;">
+          <span id="a">sigin up</span>
+          <span id="b">Log in</span>
+        </header>
+      </div>
+
+      <div class="c">
+        <h4>Your Library</h4>
+        <div id="d">
+          <h4>Create Your first playlist</h4>
+          <p>it's east,We'll help Your</p>
+          <h4 style="border-radius: 50px;background-color: white;color: black; width: 150px; text-align: center;">
+            Create Playlist
+          </h4>
+          <h4>Let's find some podcasts to follow</h4>
+          <p>We'll keep you updated on new episodes</p>
+          <h4
+            style="
+              border-radius: 50px;
+              background-color: white;
+              color: black;
+              width: 150px;
+              text-align: center;
+            "
+          >
+            Browse podcasts
+          </h4>
+        </div>
+        <h5>Legal Safety & Privacy Center</h5>
+        <h5>Privacy Policy Cookies About Ads</h5>
+        <h5>Accessibility</h5>
+        <h5>Cookies</h5>
+        <div id="e">
+          <button>
+            <img src="./globe.png" width="20" style="position: relative; top: 5px;">
+            <input list="browsers" name="browser" id="browser" placeholder="English"style="position: relative; border-radius: 20px; width: 90px; padding: 7px;">
+            <datalist id="browsers">
+              <option value="English">
+              <option value="telugu">
+              <option value="Hindi">
+              <option value="Estonian">
+              <option value="Finnish">
+                <option value="Filipino">
+                  <option value="French">
+                  <option value="Galician">
+                  <option value="Hebrew">
+                  <option value="Croatian">
+            </datalist>
+          </button>
+        </div>
+      </div>
+
+      <h2
+        style="display: inline-block; position: relative; bottom: 623px; left: 323px;  background-color: #191414;
+        border-radius: 10px;
+        padding: 5px; display: inline-block; width: 948px;">
+        Spotify Playlists
+      </h2>
+      <div class="d">
+        <div class="imc"  style="margin-left: 20px">
+          <a href="https://open.spotify.com/playlist/37i9dQZF1DX7cZxYLqLUJl"><img src="./today tops hits.jpeg" width="200px" height="150" class="one"></a>
+          <img src="./play.png" width="20px" class="one1" style="position:relative; left: 162px; bottom: 35px;">
+          <h4>Today's Top Hits</h4>
+          <p>Rema & Selena Gomez <br />are on top of the...</p>
+        </div>
+        <div class="imc" style="margin-left: 20px">
+          <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd"><img src="./Rap.jpg" width="200px" height="150" class="one"></a>
+          <img src="./play.png" width="20px" class="one1" style="position:relative; left: 165px; bottom: 30px;">
+          <h4>RapCaviar</h4>
+          <p>
+            New Music from Lil Baby,<br />
+            Juice WRLD an...
+          </p>
+        </div>
+        <div class="imc"  style="margin-left: 20px">
+          <a href="https://open.spotify.com/playlist/37i9dQZF1DX5Ejj0EkURtP"><img src="./All out 2010s.jpeg" width="200px" height="150" class="one"></a>
+          <img src="./play.png" width="20px" class="one1" style="position:relative; left: 165px; bottom: 32px;">
+          <h4>All out 2010s</h4>
+          <p>The biggest spmgs pf <br />tje 2010s.Cover:...</p>
+        </div>
+        <div class="imc" style="margin-left: 20px">
+          <a href="https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U"><img src="./rock classics.jpeg" width="200px" height="150" class="one"></a>
+          <img src="./play.png" width="20px" class="one1" style="position:relative; left: 163px; bottom: 35px;">
+          <h4>Rock Classics</h4>
+         <p>
+            Rock Legends & epic songs<br />
+            that continue t...
+          </p> 
+        </div>
+      </div>
+
+      <div class="e">
+        <div style="margin-left: 30px">
+          <h3>Company</h3>
+          <p class="x">About</p>
+          <p class="x">Jobs</p>
+          <p class="x">For the Recode</p>
+        </div>
+        <div style="margin-left: 30px">
+          <h3>Communities</h3>
+          <p class="x">For Artists</p>
+          <p class="x">Developers</p>
+          <p class="x">Advertising</p>
+          <p class="x">Investors</p>
+          <p class="x">Vendors</p>
+        </div>
+        <div style="margin-left: 30px">
+          <h3>Useful links</h3>
+          <p class="x">Support</p>
+          <p class="x">Free Mobile App</p>
+        </div>
+        <div id="f" style="position: relative; top: 20px; margin-left: 350px">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAE84mp8sp1CmjSGV-2hFWcg9p8Srk39Sn1Q&usqp=CAU"
+            width="30px"
+          />
+          <img src="./twiter.jpeg" width="30px" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoDqaFGF47S-ns3rQav9AF2QIRNaO3BFFAg&usqp=CAU"
+            width="50px"
+          />
+        </div>
+      </div>
+       <hr style="position: relative; bottom: 700px; left: 323px; width: 945px">
+       <div style="position: relative; bottom: 695px; left: 330px; color: white; font-size: 12px;">© 2024 Spotify AB</div> 
+    </div>
+   </body>
+</html>
